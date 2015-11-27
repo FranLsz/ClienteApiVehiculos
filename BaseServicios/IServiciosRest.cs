@@ -14,10 +14,13 @@ namespace BaseServicios
 
         Task Update(TModel model);
 
-        Task Delete(TModel model);
+        Task Delete(int id);
 
-        List<TModel> Get();
+        List<TModel> Get(String paramURl = null);
 
+        TModel Get(int id);
+
+        //el primer string es el nombre del parametro y el segundo es el value
         List<TModel> Get(Dictionary<String, String> param);
 
 
