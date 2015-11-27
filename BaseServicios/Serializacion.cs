@@ -7,7 +7,7 @@ using System.Web.Script.Serialization;
 
 namespace BaseServicios
 {
-    class Serializacion<T>
+    public class Serializacion<T>
     {
         public static T Deserializar(String obj)
         {

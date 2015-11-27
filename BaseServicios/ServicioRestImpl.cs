@@ -117,7 +117,7 @@ namespace BaseServicios
 
 
             //para trabajar con peticiones hhtp tenemos WebRequest(trabaja con peticiones utilizando GET) y el HttpClient
-            var request = WebRequest.Create(url);
+            var request = WebRequest.Create(urlDest);
             if (auth)
             {
                 //para autenticar
